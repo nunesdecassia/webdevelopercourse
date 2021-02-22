@@ -1,0 +1,29 @@
+/*Selector{
+    Propety: value;
+}*/
+
+body {
+    background-image: url("back.jpg");
+    background-size: cover;
+}
+
+h2 {
+    color: rebeccapurple;
+    text-align: center;
+    border: 4px solid rgba(122, 61, 186,0.6);
+    cursor: pointer; color: red;
+}
+
+p{
+    color: #1fc24a;
+    font-size: 2em;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    
+}

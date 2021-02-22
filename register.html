@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Register </title>
+</head>
+
+<body>
+    <header>
+        <h1>Register Form</h1>
+    </header>
+    <nav>
+        <a href="www.google.com"> SEARCH </a>
+    </nav>
+
+    <div>
+
+        <form method="GET">
+            <!--USE GET NOT POST-->
+            <span>First Name:<br></span> <input type="text" name="firstname"><br><br>
+            Last Name:<br> <input type="text" name="lastname"><br><br>
+            Email:<br> <input type="email" required name="email"><br><br>
+            Password:<br> <input type="password" required minlength="5" name="password"><br><br>
+            Birthday: <br> <input type="date" required name="birthday"> <br><br>
+            Gender <br>
+            <input type="radio" name="gender" value="Male"> Male <br>
+            <input type="radio" name="gender" value="Female"> Female <br>
+            <input type="radio" name="gender" value="Other"> Other <br><br>
+            Pets: <br>
+            <input type="checkbox" name="cat"> Cat <br>
+            <input type="checkbox" name="dog"> Dog <br>
+            Cars: <br>
+            <select name="cars">
+                <option value="Volvo" name="Volvo"> Volvo </option><br>
+                <option value="Audi" name="Audi"> Aldi </option><br>
+                <option value="Gol"> Gol </option><br>
+            </select><br><br>
+            <input type="submit" value="Register"><br><br>
+            <input type="reset" value="Cancel"><br>
+        </form>
+
+    </div>
+
+    <footer>Website developed by hate! </footer>
+
+</body>
+
+</html>
