@@ -1,0 +1,31 @@
+h2{
+    color:slateblue;
+}
+.boxmodel{
+        border: 3px solid red;
+        display: inline-block;
+        padding: 30px 50px;
+        margin: 10px 50px;
+        width: fit-content;
+
+}
+
+@media (max-width:400px) {
+    .boxmodel{
+        padding: 30px 30px;
+        margin: 10px 40px;
+
+}
+}
+
+p{
+    font-size: 25px;
+    line-height: 35px;
+    font-optical-sizing: ;
+}
+
+/*Serve para fazer um destaque inline. O Em vai ser relativo ao "pai" que no caso é o estilo definido em p*/
+
+span{
+    font-size: 2em;
+}
